@@ -5,5 +5,6 @@ export interface UserCredential {
 
 export interface UserProfile {
   email: string;
-  fullName: string;
+  firstName: string;
+  lastName: string;
 }
